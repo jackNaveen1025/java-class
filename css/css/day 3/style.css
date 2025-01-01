@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+header{
+    background-color: green;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+
+}
+footer{
+    background-color: green;
+    color: aliceblue;
+    padding: 1rem;
+    margin-top: auto;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+.left_side , .right_side{
+    background-color: blue;
+    width: 10px;
+    padding:1rem;
+    text-align: calc();
+}
+.main content{ 
+    flex: 1;
+    background-color: aquamarine;
+    padding: 16px;
+}
